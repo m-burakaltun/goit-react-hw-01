@@ -1,0 +1,78 @@
+.profile {
+  width: 100%;
+  max-width: 500px;
+  margin: 10px auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.description {
+  width: 100%;
+  padding: 10% 5% 5%;
+  text-align: center;
+}
+
+.avatar {
+  width: 33%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 5%;
+  background-color: #f3f3f3;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+  margin: 3px;
+}
+
+.tag,
+.location {
+  font-size: 90%;
+  color: #777;
+  margin: 3% 0;
+}
+
+.stats {
+  display: flex;
+  width: 100%;
+  background-color: #eaeaea;
+  border-top: 1px solid #ccc;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.stats li {
+  flex: 1;
+  text-align: center;
+  padding: 4% 0;
+  border-right: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6%;
+  font-size: 90%;
+}
+
+.stats li:last-child {
+  border-right: none;
+}
+
+.label {
+  color: #555;
+}
+
+.quantity {
+  font-weight: 700;
+  font-size: 105%;
+  color: #000;
+}
